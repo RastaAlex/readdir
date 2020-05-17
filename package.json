@@ -1,0 +1,30 @@
+{
+  "name": "@rasta-alex/readdir",
+  "version": "1.0.23",
+  "description": "Reading files in folder by size, name, date",
+  "main": "bin/readdir.js",
+  "bin": {
+    "readdir": "bin/readdir.js"
+  },
+  "scripts": {
+    "test": "madrun test",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint"
+  },
+  "dependencies": {
+    "@cloudcmd/stub": "^3.0.0",
+    "mock-require": "^3.0.3",
+    "readify": "7.0.5",
+    "supertape": "^2.0.0",
+    "table": "5.4.6",
+    "wisdom": "^10.3.5",
+    "yargs-parser": "18.1.3"
+  },
+  "keywords": [],
+  "author": "RastaAlex",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "tape": "^5.0.0"
+  }
+}
