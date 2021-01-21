@@ -1,4 +1,4 @@
-# Readify 
+# Readdir
 
 Reading and sorting files in directory. Placing them in a table by values.
 
